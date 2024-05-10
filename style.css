@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --Light-red: hsl(0, 100%, 67%);
+    --Light-pink-light: hsla(0, 100%, 67%, 5%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+    --Light-slate-bluebackground: hsl(252, 100%, 67%);
+--Light-royal-blue-background: hsl(241, 81%, 54%);
+--Violet-blue-circle: hsla(256, 72%, 46%, 1);
+--Persian-blue-circle: hsla(241, 72%, 46%, 0);
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+--Light-blue-background: hsla(241, 81%, 54%, 5%);
+--Light-Green-teal: hsla(166, 100%, 37%, 5%);
+--Light-Orangey-yellow: hsla(39, 100%, 56%, 5%);
+
+}
+*{margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    clear: both;
+}
+body{
+    background-color:var(--White);
+}
+#result{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+    background-color:var(--White);
+
+}
+.box-size{
+    max-width: 600px;
+    width: 100%;
+    display: flex; 
+    background-color:var(--White);
+    box-shadow: 0px 20px 20px 9px rgba(0, 189, 145, 0.1);
+}
+.col-one-result{
+    width:50%;
+    background-image: linear-gradient(180deg, 
+    var(--Light-slate-bluebackground), 
+    var(--Light-royal-blue-background));
+    padding: 40px 40px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle{
+    border-radius: 100%;
+    background-image: linear-gradient(180deg, var(--Violet-blue-circle), 
+    var(--Persian-blue-circle));
+    max-height: 180px;
+    height: 100vh;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col-one-result h1{
+    font-size: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Light-lavender);
+    line-height: 1.6rem;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.circle .circle-t{
+    color:var(--White);
+    font-size: 10vmin;
+    font-family: "Hanken Grotesk", sans-serif;
+    line-height: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.circle .circle-p{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Light-lavender);
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+.col-one-result h3{
+    font-size: 25px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color:var(--White);
+    line-height: 1.6rem;
+    font-weight: 600;
+    padding: 30px 0 15px 0;
+}
+.col-one-result p{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Light-lavender);
+    line-height: 1.2rem;
+    font-weight: 400;
+    
+}
+.col-two-result{
+    width:50%;
+    background-color:var(--White);
+    padding: 20px 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+.col-two-result h2{
+    font-size: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color:var(--Dark-gray-blue);
+    line-height: 1.6rem;
+    font-weight: 700;
+    padding: 25px 25px 15px 0;
+}
+.cate-Reaction{background-color: var(--Light-pink-light);
+padding: 12px 15px;
+border-radius: 8px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 15px;
+}
+.cate-t{font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Light-red);
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-t img{top: 5px;}
+.cate-r{font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #999999;
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-r span{font-size: 18px;
+    color: var(--Dark-gray-blue);
+}
+
+
+.cate-Memory{
+    background-color: var(--Light-Orangey-yellow);
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin-bottom: 15px;
+}
+.cate-Memory .cate-t{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Orangey-yellow);
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-r{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #999999;
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-r span{
+    font-size: 18px;
+    color: var(--Dark-gray-blue);
+}
+
+.cate-Verbal{
+    background-color: var(--Light-Green-teal);
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin-bottom: 15px;
+}
+.cate-Verbal .cate-t{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Green-teal);
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-r{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #999999;
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-r span{
+    font-size: 18px;
+    color: var(--Dark-gray-blue);
+}
+
+.cate-Visual{
+    background-color: var(--Light-blue-background);
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin-bottom: 15px;
+}
+.cate-Visual .cate-t{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Cobalt-blue);
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-r{
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #999999;
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.cate-r span{
+    font-size: 18px;
+    color: var(--Dark-gray-blue);
+}
+button {
+    padding: 16px 37%;
+    border: none;
+    font-family: "Hanken Grotesk", sans-serif;
+    border-radius: 30px;
+    color: var(--White);
+    background-image: linear-gradient(180deg, var(--Light-slate-bluebackground), 
+    var(--Light-royal-blue-background));
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    box-size{
+        flex-direction: column;
+    }
+}
